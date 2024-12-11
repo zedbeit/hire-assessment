@@ -58,13 +58,13 @@ Runs on **port `9000`**.
 ### Prerequisites
 
 Ensure the following are installed:
-- **Java 8 SDK**
+- **Java 8**
 - **Maven**
 - **Git**
 
 Clone the repository:  
 ```bash
-git clone <repo-url>
+git clone https://github.com/zedbeit/hire-assessment.git
 ```
 
 Start by running the REST service before starting any UI services.
