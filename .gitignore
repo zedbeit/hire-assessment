@@ -1,0 +1,43 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+book-management-rest-service/.idea
+book-catalog-web-service-thyme-leaf/.idea
+*.iws
+book-management-rest-service/*.iws
+book-catalog-web-service-thyme-leaf/*.iws
+*.iml
+book-management-rest-service/*.iml
+book-catalog-web-service-thyme-leaf/*.iml
+*.ipr
+book-management-rest-service/*.ipr
+book-catalog-web-service-thyme-leaf/*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+.DS_Store

@@ -1,0 +1,82 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+td input, td select {
+    width: auto;
+    box-sizing: border-box;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.no-records-row {
+    text-align: center;
+    font-style: italic;
+    color: #999;
+}
+
+/* Form styles */
+.form-inline {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-inline input, .form-inline select, .form-inline button {
+    margin-right: 10px;
+    flex: 1 1 auto;
+    min-width: 150px;
+    padding: 10px;
+    font-size: 14px;
+}
+
+button {
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button.add-btn {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+button.add-btn:hover {
+    background-color: #218838;
+}
+
+button.edit-btn {
+    background-color: #007bff;
+    color: white;
+}
+
+button.edit-btn:hover {
+    background-color: #0056b3;
+}
+
+button.delete-btn {
+    background-color: #dc3545;
+    color: white;
+}
+
+button.delete-btn:hover {
+    background-color: #a71d2a;
+}
