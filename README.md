@@ -68,7 +68,7 @@ git clone https://github.com/zedbeit/hire-assessment.git
 ```
 
 Start by running the REST service before starting any UI services.
-If using IntelliJ IDEA, open each service in a separate IDE window.
+If using IDE, open each service in a separate IDE window.
 
 ### 🚀 Book Catalogue Management Rest Service
 
